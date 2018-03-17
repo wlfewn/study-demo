@@ -1,0 +1,29 @@
+#基本配置
+spring:
+  application:
+    name: api-gateway
+
+server:
+  port: 5555
+
+#路由映射处理
+zuul:
+  #prefix: api #为zuul设置一个公共的前缀
+  routes:   #这里是定义拦截path与serviceId绑定
+    session:  #定义client客户端，再绑定path与serviceId
+      path: /session/** #
+      serviceId: spring-cloud-test #指定需要调用的微服务id
+      #默认情况下，敏感的头信息无法经过API网关进行传递,需要开启。 解决使用zuul网关后spring session无效问题
+      sensitiveHeaders: "*"
+
+#zuul.routes.api-a.path=/api-a/**
+
+#注册服务配置
+eureka:
+  instance:
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

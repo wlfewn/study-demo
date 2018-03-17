@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud.iml" filepath="$PROJECT_DIR$/cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-test01/cloud-test01.iml" filepath="$PROJECT_DIR$/cloud-test01/cloud-test01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-test02/cloud-test02.iml" filepath="$PROJECT_DIR$/cloud-test02/cloud-test02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/register-center/register-center.iml" filepath="$PROJECT_DIR$/register-center/register-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-session/spring-session.iml" filepath="$PROJECT_DIR$/spring-session/spring-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-zuul/spring-zuul.iml" filepath="$PROJECT_DIR$/spring-zuul/spring-zuul.iml" />
+    </modules>
+  </component>
+</project>
