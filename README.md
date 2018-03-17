@@ -15,7 +15,7 @@
 
 
 #### cloud-session-zuul-demo说明
-1. 基于spring-session-demo,添加了zuul模块,配置文件有具体说明
+1. 基于cloud-session-demo,添加了zuul模块,配置文件有具体说明
 2. 依次启动项目后,访问http://localhost:5555/session/session 
 	如果能看到一致的session id，即说明zuul配置生效
 
