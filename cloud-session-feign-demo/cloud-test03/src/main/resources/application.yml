@@ -1,0 +1,17 @@
+
+
+server:
+  port: 8082
+
+spring:
+  application:
+    name: feign-test
+
+eureka:
+  instance:
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

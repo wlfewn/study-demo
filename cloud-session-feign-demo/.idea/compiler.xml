@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-test01" />
+        <module name="cloud-test02" />
+        <module name="cloud-test03" />
+        <module name="register-center" />
+        <module name="spring-feign" />
+        <module name="spring-session" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud" target="1.8" />
+      <module name="cloud-test01" target="1.8" />
+      <module name="cloud-test02" target="1.8" />
+      <module name="cloud-test03" target="1.8" />
+      <module name="register-center" target="1.8" />
+      <module name="spring-feign" target="1.8" />
+      <module name="spring-session" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

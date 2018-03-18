@@ -1,0 +1,6 @@
+
+# redis 配置文件 为了不破坏核心文件的原生态
+redis:
+  hostname: 127.0.0.1
+  port: 6379
+  password: 123456
